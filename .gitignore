@@ -7,10 +7,32 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
-anime_recommender.egg-info
-.env 
-logs 
+.venv/
 
+# Environment variables
+.env
 
+# Logs
+logs/
 
+# Vector database
+chroma_db/
+
+# Streamlit cache
+.streamlit/
+
+# macOS files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Generated CSVs
+data/anime_updated.csv
